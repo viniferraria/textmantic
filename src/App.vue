@@ -1,17 +1,20 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
+    <img title="eid sucks" alt="Textmantic logo" src="./assets/logo.gif">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <TextField></TextField>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from './components/HelloWorld'
+import TextField from './components/TextField'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    // HelloWorld,
+    TextField
   }
 }
 </script>
